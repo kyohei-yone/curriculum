@@ -1,7 +1,5 @@
 package study;
 
-
-
 /**
  *
  * 本課題では、フィールド変数、メソッドの基本的な使い方を学んでいきましょう。
@@ -29,8 +27,7 @@ public class Main {
         //   要素が奇数の場合には「nは奇数です。」と出力されます。
 
         for (int n = 0; n < arr.length; n++) {
-        	System.out.println(arr[n]);
-        	int num = n;
+        	isOdd(arr[n]);
 
         	}
     }
