@@ -1,0 +1,189 @@
+
+
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+}
+
+.blue-box {
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+
+.green-box {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+
+.midright {
+  width: 250px;
+  float: left;
+}
+
+.midright2 {
+  width: 150px;
+  float: left;
+}
+
+.yellow-box {
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+}
+
+.lightblue-box {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.pink-box {
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+  float: left;
+}
+
+.red-box {
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+.orange-box {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
+
+@media screen and (max-width: 767px) {
+  
+  .clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+  }
+  
+  .wrapper {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .blue-box {
+    width: 300px;
+    height: 100px;
+  
+  }
+  
+  .green-box {
+    width: 100px;
+    height: 250px;
+    float: left;
+  }
+  
+  .midright {
+    width: 200px;
+    float: left;
+  }
+  
+  .midright2 {
+    width: 125px;
+    float: left;
+  }
+  
+  .yellow-box {
+    width: 125px;
+    height: 50px;
+  }
+  
+  .lightblue-box {
+    width: 125px;
+    height: 100px;
+  }
+  
+  .pink-box {
+    width: 75px;
+    height: 150px;
+    float: left;
+  }
+  
+  .red-box {
+    width: 200px;
+    height: 100px;
+  }
+  
+  .orange-box {
+    width: 300px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+  }
+  
+  .wrapper {
+    width: 150px;
+    margin: auto;
+  }
+  
+  .blue-box {
+    width: 150px;
+    height: 100px;
+  
+  }
+  
+  .green-box {
+    width: 150px;
+    height: 250px;
+    float: left;
+  }
+  
+  .midright {
+    width: 150px;
+    float: left;
+  }
+  
+  .midright2 {
+    width: 150px;
+    float: left;
+  }
+  
+  .yellow-box {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .lightblue-box {
+    width: 150px;
+    height: 100px;
+  }
+  
+  .pink-box {
+    width: 150px;
+    height: 150px;
+    float: left;
+  }
+  
+  .red-box {
+    width: 150px;
+    height: 100px;
+  }
+  
+  .orange-box {
+    width: 150px;
+    height: 100px;
+  }
+}
